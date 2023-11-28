@@ -1,0 +1,25 @@
+Ejemplo
+Pedir al usuario que adivine el número entre el uno y el veinte. Utiliza un bucle para permitir que el usuario haga múltiples intentos. Proporciona pistas indicando si el número ingresado es demasiado alto o demasiado bajo. El programa debe terminar cuando el usuario adivine correctamente el número.
+1.  Inicio
+2.  numero, i(0-n)
+3.  numero <-- 15
+4.  respuesta, i(0-n)
+5.  bandera, l <-- true
+6.  << "Adivina el número, este es uno que está en un rango del 1 al 20"
+7.  Mientras bandera == true entonces
+8.            << "Ingresa el número aleatorio" 
+9.            >> respuesta
+10.            Si respuesta == numero entonces
+11.                    << "Acertaste! Felicidades"
+12.                    bandera <-- false
+13.            De lo contrario
+14.           		Si respuesta < numero entonces
+15. 				<< "Incorrecto, es un número mayor"
+16.			De lo contrario
+17. 				Si respuesta > numero entonces
+18.					<< "Es un número menor, inténtalo de nuevo"
+19.				FinSI
+20.          		FinSi
+21. 	      FinSi
+22. FinMientras
+23. Fin
